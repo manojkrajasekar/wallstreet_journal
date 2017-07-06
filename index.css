@@ -1,0 +1,207 @@
+
+body {
+	 font-size: 15px;
+}
+
+.flex-container {
+	display: --webkit-flex;
+	height:auto;
+	flex-direction: column;
+}
+
+.header {
+	min-height: 20px;
+	background-color: #EEEEEE;
+	display: flex;
+}
+
+
+.header > .caption {
+	margin: 3px 0px 0px 117px;
+	font-weight: bold;
+	font-size: 12px;
+	cursor: pointer;
+}
+
+.header > .arrow-down {
+  margin: 5px 0px 0px 4px;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 9px solid black;
+  cursor: pointer;
+  
+}
+
+.table {
+    border-collapse: collapse;
+  	height:35px;
+    background-color: black;
+    margin: auto;
+}
+
+.table > .content {
+	margin:auto;
+	min-height: 70%;
+	width:85%;
+	padding: 3px 5px;
+}
+
+
+.table > .content > .first {
+	margin-left: 2px;
+	cursor:pointer;
+	color: white;
+	font-weight: bold;
+	width:12.5%;
+}
+
+.table > .content > .first:hover {
+		color: grey;
+}
+
+.table > .content > .first > .arrow-up {
+	  width: 0; 
+	  height: 0; 
+	  margin-left: 2px;
+	  border-left: 4px solid transparent;
+	  border-right: 4px solid transparent;
+	  border-bottom: 9px solid green;
+	  display: inline-block;
+}
+
+.table > .content > .second {
+	padding-top: 5%;
+	margin-left:40px;
+	cursor:pointer;
+	color: white;
+	font-weight: bold;
+	width:12.5%;
+}
+
+.table > .content > .second:hover {
+		color: grey;
+}
+
+
+.table > .content > .second > .percent {
+
+		margin-left: 5px;
+}
+
+.table > .content > .second > .arrow-up {
+  width: 0; 
+  height: 0; 
+  margin-left: 2px;
+  border-left: 4px solid transparent;
+  border-right: 4px solid transparent;
+  border-bottom: 9px solid green;
+  display: inline-block;
+}
+
+.subhead {
+	min-height:30px;
+	margin: auto;
+}
+
+.subhead > .topic {
+	margin:auto;
+	padding-bottom: 25px;
+}
+
+.subhead > .topic > .name {
+	margin:auto;
+	width:70%;
+	padding-bottom:25px;
+	font-style: bold;
+	font-size: 50px;
+	letter-spacing: -1px;
+}
+
+.subhead > .topic > .name > .space {
+	width:13%;
+	float:right;
+	margin-top: 15px;
+	max-height: 20%;
+	font-size: 20px;
+	color:grey;
+}
+.subhead > .topic  > .subscribe {
+	
+	margin-bottom: 10px;
+	width: 15%;
+	text-align: right;
+
+}
+
+.subhead > .topic > .sign {
+	
+	padding-bottom: 10px;
+	width: 15%;
+	text-align: right;
+}
+
+.subscribe:hover {
+	color: skyblue;
+}
+
+.sign:hover {
+	color:skyblue;
+}
+.subhead > .topic > .name > .details {
+	padding-top: 10px;
+	margin-left: 10px;
+	margin-top:; 30px;
+	width:15%;
+	font-size: 10px;
+	float:right;
+}
+
+.subhead > .topic > .name > .det {
+	
+	width:40%;
+	min-height: 30px;
+	font-size: 18px;
+	margin-left: 18%;
+	text-align: left;
+	/*background-color: red;*/
+}
+
+.subhead > .topic > .name > .det > .info {
+	color:grey;
+	cursor: pointer;
+	padding-left: 5px;
+}
+
+.det > .info > .arrow-down {
+	  margin: 5px 0px 0px 4px;
+	  border-left: 5px solid transparent;
+	  border-right: 5px solid transparent;
+	  border-top: 7px solid grey;
+	  cursor: pointer;
+	  display: inline-block;
+}
+
+/*.content {
+	margin:auto;
+	width: 80%;
+}
+.content > .jdetails {
+	width:80;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
