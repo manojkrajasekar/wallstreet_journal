@@ -37,6 +37,7 @@ body {
   	height:35px;
     background-color: black;
     margin: auto;
+    display: flex;
 }
 
 .table > .content {
@@ -89,55 +90,55 @@ body {
 }
 
 .table > .content > .second > .arrow-up {
-  width: 0; 
-  height: 0; 
-  margin-left: 2px;
-  border-left: 4px solid transparent;
-  border-right: 4px solid transparent;
-  border-bottom: 9px solid green;
-  display: inline-block;
+	  width: 0; 
+	  height: 0; 
+	  margin-left: 2px;
+	  border-left: 4px solid transparent;
+	  border-right: 4px solid transparent;
+	  border-bottom: 9px solid green;
+	  display: inline-block;
 }
 
-.subhead {
-	min-height:30px;
+.flex-container > .subhead {
+	min-height: 140px;
 	margin: auto;
+	display: flex;
 }
 
-.subhead > .topic {
+.flex-container >.subhead > .topic {
 	margin:auto;
-	padding-bottom: 25px;
 }
 
-.subhead > .topic > .name {
+.flex-container >.subhead > .topic > .name {
 	margin:auto;
-	width:70%;
-	padding-bottom:25px;
 	font-style: bold;
 	font-size: 50px;
-	letter-spacing: -1px;
+	letter-spacing: -2px;
 }
 
-.subhead > .topic > .name > .space {
-	width:13%;
+.flex-container > .subhead > .topic > .name > .space {
 	float:right;
+	margin-left: 25px;
 	margin-top: 15px;
 	max-height: 20%;
 	font-size: 20px;
 	color:grey;
 }
-.subhead > .topic  > .subscribe {
-	
-	margin-bottom: 10px;
-	width: 15%;
-	text-align: right;
 
+.flex-container > .subhead > .topic > .name > .subscribe {
+	padding-left:5px;
+	float: right;
+	max-height: 20%;
+	font-size: 20px;
+	cursor: pointer;
 }
 
-.subhead > .topic > .sign {
-	
-	padding-bottom: 10px;
-	width: 15%;
+.flex-container > .subhead > .topic > .name > .sign {
+	float: right;
 	text-align: right;
+	max-height: 20%;
+	font-size: 20px;
+	cursor: pointer;
 }
 
 .subscribe:hover {
@@ -147,32 +148,28 @@ body {
 .sign:hover {
 	color:skyblue;
 }
-.subhead > .topic > .name > .details {
-	padding-top: 10px;
-	margin-left: 10px;
-	margin-top:; 30px;
+
+.flex-container > .subhead > .topic > .name > .details {
 	width:15%;
-	font-size: 10px;
+	font-size: 20px;
 	float:right;
 }
 
-.subhead > .topic > .name > .det {
-	
+.flex-container > .subhead > .topic > .det {
 	width:40%;
 	min-height: 30px;
 	font-size: 18px;
 	margin-left: 18%;
 	text-align: left;
-	/*background-color: red;*/
 }
 
-.subhead > .topic > .name > .det > .info {
+.flex-container > .subhead > .topic > > .det > .info {
 	color:grey;
 	cursor: pointer;
 	padding-left: 5px;
 }
 
-.det > .info > .arrow-down {
+.flex-container > .det > .info > .arrow-down {
 	  margin: 5px 0px 0px 4px;
 	  border-left: 5px solid transparent;
 	  border-right: 5px solid transparent;
@@ -181,15 +178,18 @@ body {
 	  display: inline-block;
 }
 
-/*.content {
+.flex-container  > .type {
 	margin:auto;
-	width: 80%;
+	max-height: 50px;
+	width:75%;
 }
-.content > .jdetails {
-	width:80;
 
+ .type >.division {
+	
+	margin-left: 25px; 
 
 }
+
 
 
 
